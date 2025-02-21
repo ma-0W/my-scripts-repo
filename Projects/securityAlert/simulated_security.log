@@ -1,0 +1,23 @@
+2025-04-15 08:00:00, INFO, System startup complete. All services are running.
+2025-04-15 08:05:12, INFO, User Alice logged in from 192.168.1.10.
+2025-04-15 08:07:45, DEBUG, Routine system check initiated.
+2025-04-15 08:10:01, WARNING, Multiple failed login attempts detected for user admin.
+2025-04-15 08:12:34, INFO, User Bob logged in from 192.168.1.15.
+2025-04-15 08:15:20, ERROR, Database connection timeout. Retrying connection.
+2025-04-15 08:18:55, INFO, Connection re-established to the primary database.
+2025-04-15 08:20:30, WARNING, Suspicious activity: Unusual outbound traffic detected from IP 10.0.0.25.
+2025-04-15 08:23:00, INFO, User Carol logged out.
+2025-04-15 08:25:12, DEBUG, Scheduled backup process started.
+2025-04-15 08:28:45, ERROR, Backup process failed: Insufficient disk space.
+2025-04-15 08:30:00, INFO, Initiating disk cleanup.
+2025-04-15 08:33:21, INFO, Disk cleanup completed successfully.
+2025-04-15 08:35:10, CRITICAL, Unauthorized access attempt detected from IP 172.16.0.5.
+2025-04-15 08:38:00, DEBUG, Capturing forensic data for potential breach.
+2025-04-15 08:40:12, INFO, User Dave logged in from 192.168.1.20.
+2025-04-15 08:42:55, WARNING, Unusual file access pattern detected on server X.
+2025-04-15 08:45:00, INFO, System scan initiated.
+2025-04-15 08:47:30, INFO, System scan completed. No malware detected.
+2025-04-15 08:50:05, ERROR, Process 'xyz' terminated unexpectedly.
+2025-04-15 08:55:00, INFO, User Alice logged out.
+2025-04-15 08:57:15, CRITICAL, Data breach detected: Multiple unauthorized login attempts.
+2025-04-15 09:00:00, INFO, Security team notified.

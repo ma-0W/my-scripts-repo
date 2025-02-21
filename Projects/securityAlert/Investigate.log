@@ -1,0 +1,5 @@
+2025-04-15 08:10:01, WARNING, Multiple failed login attempts detected for user admin.
+2025-04-15 08:20:30, WARNING, Suspicious activity: Unusual outbound traffic detected from IP 10.0.0.25.
+2025-04-15 08:35:10, CRITICAL, Unauthorized access attempt detected from IP 172.16.0.5.
+2025-04-15 08:42:55, WARNING, Unusual file access pattern detected on server X.
+2025-04-15 08:57:15, CRITICAL, Data breach detected: Multiple unauthorized login attempts.

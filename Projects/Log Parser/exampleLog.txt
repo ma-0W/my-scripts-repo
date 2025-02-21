@@ -1,0 +1,25 @@
+2025-03-15 08:00:00, INFO, System startup completed.
+2025-03-15 08:05:12, INFO, User Alice logged in from 192.168.0.2.
+2025-03-15 08:07:34, DEBUG, Checking system health metrics.
+2025-03-15 08:10:01, WARNING, CPU usage exceeded 85% on server3.
+2025-03-15 08:15:45, INFO, Scheduled job backup initiated.
+2025-03-15 08:16:12, ERROR, Backup job failed: Insufficient disk space.
+2025-03-15 08:20:22, INFO, User Bob logged in from 192.168.0.5.
+2025-03-15 08:25:30, DEBUG, Monitoring network traffic.
+2025-03-15 08:30:00, INFO, Database connection established.
+2025-03-15 08:33:45, ERROR, Database query timeout.
+2025-03-15 08:35:10, WARNING, Unusual network activity detected.
+2025-03-15 08:40:00, INFO, User Carol logged in from 10.0.0.8.
+2025-03-15 08:45:23, INFO, Scheduled maintenance started.
+2025-03-15 08:50:30, CRITICAL, Unauthorized access attempt detected.
+2025-03-15 08:55:12, DEBUG, Capturing packet data.
+2025-03-15 09:00:00, INFO, Maintenance completed successfully.
+2025-03-15 09:05:45, WARNING, High memory usage on server5.
+2025-03-15 09:10:00, ERROR, Failed to allocate memory for process 234.
+2025-03-15 09:15:34, INFO, User Dave logged out.
+2025-03-15 09:20:11, INFO, Scheduled job started.
+2025-03-15 09:25:45, ERROR, Job terminated due to unexpected error.
+2025-03-15 09:30:22, INFO, User Alice logged out.
+2025-03-15 09:35:00, DEBUG, System performance metrics logged.
+2025-03-15 09:40:12, INFO, Security scan completed.
+2025-03-15 09:45:55, CRITICAL, Data breach detected: Multiple login failures.

@@ -10,7 +10,7 @@ This repository serves as a hub for my personal scripts, tools, and utilities. T
 ### 1. **VirusTotal Clipboard IP Scanner** (`VTClipboardIP.py`)
 A script that monitors the clipboard for IP addresses and checks them against **VirusTotal’s database**.
 
-- Automatically scans copied IP addresses
+- Automatically scans copied IP addresses                                                                        
 - Displays results in a structured format
 - Uses VirusTotal API for threat analysis
 - Designed to stay on top of other windows, allowing for seamless monitoring without disrupting your workflow
@@ -19,6 +19,7 @@ A script that monitors the clipboard for IP addresses and checks them against **
 ```bash
 python VTClipboardIP.py
 ```
+![VirusTotal Scan](images/VirusTotalScan1.png)
 
 ---
 
@@ -33,7 +34,6 @@ A script that scans files using the **VirusTotal API v3**.
 ```bash
 python ScanFile.py
 ```
-![VirusTotal Scan](images/VirusTotalScan1.png)
 
 ---
 

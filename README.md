@@ -5,6 +5,13 @@ Welcome to my **My Scripts Repository**! This repository contains a collection o
 ## Overview
 This repository serves as a hub for my personal scripts, tools, and utilities. These scripts are designed for automation, security research, and system monitoring. Below is a breakdown of the projects available in this repository.
 
+## Requirements
+Ensure you have Python installed (Python 3 recommended). 
+Use legacy command prompt for always-stay-ontop feature of the IP scanners
+Install dependencies using:
+```bash
+pip install requests pyperclip ctypes pywin32 ipaddress win10toast watchdog logging
+```
 ## 🔎Security & Log Analysis Tools
 
 ### 1. **VirusTotal Clipboard IP Scanner** (`VTClipboardIP.py`)
@@ -91,9 +98,5 @@ A script that monitors changes (creation, modification, deletion) in a specified
 python monitor_directory.py
 ```
 
-## Requirements
-Ensure you have Python installed (Python 3 recommended). Install dependencies using:
-```bash
-pip install requests pyperclip ctypes pywin32 ipaddress win10toast watchdog logging
-```
+
 

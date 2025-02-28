@@ -66,7 +66,7 @@ python logParser.py
 ---
 
 ### 5. **Security Log Alert System** (`logAlert.py`)
-This script analyzes log files and sends real-time alerts when critical or suspicious events are detected.
+This script analyses log files and sends real-time alerts when critical or suspicious events are detected.
 
 - Desktop notifications for critical security logs
 - Saves alerts in `alerts.log` for review

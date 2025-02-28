@@ -14,7 +14,7 @@ pip install requests pyperclip ctypes pywin32 ipaddress win10toast watchdog logg
 ```
 ## 🔎Security & Log Analysis Tools
 
-### 1. **VirusTotal Clipboard IP Scanner** (`VTClipboardIP.py`)
+### 1. [**VirusTotal Clipboard IP Scanner**](https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/soc_tooling/VirusTotalIPScan)
 A script that monitors the clipboard for IP addresses and checks them against **VirusTotal’s database**.
 
 - Automatically scans copied IP addresses                                                                        

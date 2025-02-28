@@ -14,12 +14,12 @@ A script that monitors the clipboard for IP addresses and checks them against **
 - Displays results in a structured format
 - Uses VirusTotal API for threat analysis
 - 📌Designed to stay on top of other windows, allowing for seamless monitoring without disrupting your workflow
-![VirusTotal Scan](images/VirusTotalScan1.png)
+
 **Usage:**
 ```bash
 python VTClipboardIP.py
 ```
-
+![VirusTotal Scan](images/VirusTotalScan1.png)
 ---
 
 ### 2. **VirusTotal File Scanner** (`ScanFile.py`)
@@ -43,12 +43,12 @@ A script that checks if an IP address has been reported for abuse in the last 90
 - Uses API authentication for secure queries
 - Logs results in the console
 - 📌Designed to remain on top of other windows, ensuring quick access and continuous visibility while working
-![VirusTotal Scan](images/AbuseIPDBScan1.png)
+
 **Usage:**
 ```bash
 python abuseipdbTool.py
 ```
-
+![VirusTotal Scan](images/AbuseIPDBScan1.png)
 ---
 
 ### 4. **Security Log Parser** (`logParser.py`)

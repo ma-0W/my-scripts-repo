@@ -90,3 +90,10 @@ A script that monitors changes (creation, modification, deletion) in a specified
 ```bash
 python monitor_directory.py
 ```
+
+## Requirements
+Ensure you have Python installed (Python 3 recommended). Install dependencies using:
+```bash
+pip install requests pyperclip ctypes pywin32 ipaddress win10toast watchdog logging
+```
+

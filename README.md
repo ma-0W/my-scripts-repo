@@ -13,7 +13,7 @@ A script that monitors the clipboard for IP addresses and checks them against **
 - Automatically scans copied IP addresses                                                                        
 - Displays results in a structured format
 - Uses VirusTotal API for threat analysis
-- Designed to stay on top of other windows, allowing for seamless monitoring without disrupting your workflow
+- 📌Designed to stay on top of other windows, allowing for seamless monitoring without disrupting your workflow
 
 **Usage:**
 ```bash
@@ -43,7 +43,7 @@ A script that checks if an IP address has been reported for abuse in the last 90
 - Scans clipboard for IPs and checks for abuse reports
 - Uses API authentication for secure queries
 - Logs results in the console
-- Designed to remain on top of other windows, ensuring quick access and continuous visibility while working
+- 📌Designed to remain on top of other windows, ensuring quick access and continuous visibility while working
 
 **Usage:**
 ```bash

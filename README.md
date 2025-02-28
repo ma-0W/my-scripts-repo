@@ -1,71 +1,103 @@
 # My Scripts Repository
 
-Welcome to my **My Scripts Repository**!  This repository contains a collection of my scripts, ranging from cybersecurity tools to file monitoring utilities.
+Welcome to my **My Scripts Repository**! This repository contains a collection of my scripts, ranging from cybersecurity tools to file monitoring utilities.
 
-##  Overview
+## Overview
 This repository serves as a hub for my personal scripts, tools, and utilities. These scripts are designed for automation, security research, and system monitoring. Below is a breakdown of the projects available in this repository.
 
-## 📂 Projects
+## 🔎Security & Log Analysis Tools
 
-### 1️⃣ **File System Monitor** (`monitor_directory.py`)
-A script that monitors changes (creation, modification, deletion) in a specified directory using the `watchdog` Python module.
+### 1. **VirusTotal Clipboard IP Scanner** (`VTClipboardIP.py`)
+A script that monitors the clipboard for IP addresses and checks them against **VirusTotal’s database**.
 
-- 📌 **Logs file system events** in `monitor.log`
-- 🔍 Detects file modifications, creations, and deletions
-- 🏷️ Uses Python's `watchdog` library
+- Automatically scans copied IP addresses
+- Displays results in a structured format
+- Uses VirusTotal API for threat analysis
+- Designed to stay on top of other windows, allowing for seamless monitoring without disrupting your workflow
 
-📜 **Usage:**
+**Usage:**
 ```bash
-python monitor_directory.py
+python VTClipboardIP.py
 ```
 
 ---
 
-### 2️⃣ **AbuseIPDB Checker** (`abuseipdbTool.py`)
+### 2. **VirusTotal File Scanner** (`ScanFile.py`)
+A script that scans files using the **VirusTotal API v3**.
+
+- Checks if files have been scanned before using SHA-256 hashes
+- Uploads new files for scanning if no previous results are found
+- Displays scan results with links to VirusTotal reports
+
+**Usage:**
+```bash
+python ScanFile.py
+```
+![VirusTotal Scan](images/VirusTotalScan1.png)
+
+---
+
+### 3. **AbuseIPDB Checker** (`abuseipdbTool.py`)
 A script that checks if an IP address has been reported for abuse in the last 90 days using the **AbuseIPDB API**.
 
-- 🔍 **Scans clipboard for IPs** and checks for abuse reports
-- 🛡️ Uses API authentication for secure queries
-- 📜 Logs results in the console
+- Scans clipboard for IPs and checks for abuse reports
+- Uses API authentication for secure queries
+- Logs results in the console
+- Designed to remain on top of other windows, ensuring quick access and continuous visibility while working
 
-📜 **Usage:**
+**Usage:**
 ```bash
 python abuseipdbTool.py
 ```
 
 ---
 
-### 3️⃣ **VirusTotal File Scanner** (`ScanFile.py`)
-A script that scans files using the **VirusTotal API v3**.
+### 4. **Security Log Parser** (`logParser.py`)
+A tool that scans log files for security-related events and extracts critical alerts.
 
-- 🛡️ **Checks if files have been scanned before** using SHA-256 hashes
-- 🚀 **Uploads new files for scanning** if no previous results are found
-- 🔍 **Displays scan results** with links to VirusTotal reports
+- Filters logs for critical security events
+- Saves extracted alerts to a separate file for further investigation
+- Helps in identifying security incidents
 
-📜 **Usage:**
+**Usage:**
 ```bash
-python ScanFile.py
+python logParser.py
 ```
 
 ---
 
-### 4️⃣ **VirusTotal Clipboard IP Scanner** (`VTClipboardIP.py`)
-A script that monitors the clipboard for IP addresses and checks them against **VirusTotal’s database**.
+### 5. **Security Log Alert System** (`logAlert.py`)
+This script analyzes log files and sends real-time alerts when critical or suspicious events are detected.
 
-- 🔍 **Automatically scans copied IP addresses**
-- 📜 Displays results in a structured format
-- 🛡️ Uses VirusTotal API for threat analysis
+- Desktop notifications for critical security logs
+- Saves alerts in `alerts.log` for review
+- Helps in proactive monitoring of security events
 
-📜 **Usage:**
+**Usage:**
 ```bash
-python VTClipboardIP.py
+python logAlert.py
 ```
 
-## 🔧 Requirements
-Ensure you have Python installed (Python 3 recommended). Install dependencies using:
+## 👀System Monitoring Tools
+
+### 6. **File System Monitor** (`monitor_directory.py`)
+A script that monitors changes (creation, modification, deletion) in a specified directory using the `watchdog` Python module.
+
+- Logs file system events in `monitor.log`
+- Detects file modifications, creations, and deletions
+- Uses Python's `watchdog` library
+
+**Usage:**
 ```bash
-pip install -r requirements.txt
+python monitor_directory.py
 ```
 
+## How to Include Images in the README
+To include images or screenshots of the scripts in action on GitHub, follow these steps:
 
-
+1. Save the screenshot of the script running.
+2. Upload the image to your GitHub repository (e.g., in a folder named `images`).
+3. Reference the image in the README using Markdown:
+   ```md
+   ![VirusTotal Scan](images/virustotal_scan.png)
+   ```

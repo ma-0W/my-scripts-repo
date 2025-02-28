@@ -29,7 +29,7 @@ python VTClipboardIP.py
 ![VirusTotal Scan](images/VirusTotalScan1.png)
 ---
 
-### 2. [**VirusTotal File Scanner**] (https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/soc_tooling/VirusTotalFileScan)
+### 2. [**VirusTotal File Scanner**](https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/soc_tooling/VirusTotalFileScan)
 A script that scans files using the **VirusTotal API v3**.
 
 - Checks if files have been scanned before using SHA-256 hashes
@@ -43,7 +43,7 @@ python ScanFile.py
 
 ---
 
-### 3. [**AbuseIPDB Checker**] (https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/soc_tooling/AbuseIPdbScan)
+### 3. [**AbuseIPDB Checker**](https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/soc_tooling/AbuseIPdbScan)
 A script that checks if an IP address has been reported for abuse in the last 90 days using the **AbuseIPDB API**.
 
 - Scans clipboard for IPs and checks for abuse reports
@@ -58,7 +58,7 @@ python abuseipdbTool.py
 ![VirusTotal Scan](images/AbuseIPDBScan1.png)
 ---
 
-### 4. [**Security Log Parser**] (https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/search_logs)
+### 4. [**Security Log Parser**](https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/search_logs)
 A tool that scans log files for security-related events and extracts critical alerts.
 
 - Filters logs for critical security events
@@ -72,7 +72,7 @@ python logParser.py
 
 ---
 
-### 5. [**Security Log Alert System**] (`https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/log_security_alert`)
+### 5. [**Security Log Alert System**](https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/log_security_alert)
 This script analyses log files and sends real-time alerts when critical or suspicious events are detected.
 
 - Desktop notifications for critical security logs
@@ -86,7 +86,7 @@ python logAlert.py
 
 ## 👀System Monitoring Tools
 
-### 6. [**File System Monitor**] (`https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/monitor_file_events`)
+### 6. [**File System Monitor**](https://github.com/ma-0W/my-scripts-repo/tree/master/Projects/monitor_file_events)
 A script that monitors changes (creation, modification, deletion) in a specified directory using the `watchdog` Python module.
 
 - Logs file system events in `monitor.log`

@@ -14,12 +14,11 @@ A script that monitors the clipboard for IP addresses and checks them against **
 - Displays results in a structured format
 - Uses VirusTotal API for threat analysis
 - 📌Designed to stay on top of other windows, allowing for seamless monitoring without disrupting your workflow
-
+![VirusTotal Scan](images/VirusTotalScan1.png)
 **Usage:**
 ```bash
 python VTClipboardIP.py
 ```
-![VirusTotal Scan](images/VirusTotalScan1.png)
 
 ---
 
@@ -44,7 +43,7 @@ A script that checks if an IP address has been reported for abuse in the last 90
 - Uses API authentication for secure queries
 - Logs results in the console
 - 📌Designed to remain on top of other windows, ensuring quick access and continuous visibility while working
-
+![VirusTotal Scan](images/AbuseIPDBScan1.png)
 **Usage:**
 ```bash
 python abuseipdbTool.py
@@ -91,13 +90,3 @@ A script that monitors changes (creation, modification, deletion) in a specified
 ```bash
 python monitor_directory.py
 ```
-
-## How to Include Images in the README
-To include images or screenshots of the scripts in action on GitHub, follow these steps:
-
-1. Save the screenshot of the script running.
-2. Upload the image to your GitHub repository (e.g., in a folder named `images`).
-3. Reference the image in the README using Markdown:
-   ```md
-   ![VirusTotal Scan](images/virustotal_scan.png)
-   ```

@@ -1,33 +1,22 @@
 """
-Common routine taks to automate:
-File management
-- renaming files in bulk
-- moving or copying files from directories
-- deleting or archiving old files
-
-System Tasks:
-- schedulling scripts to run at certain times
-- checking system health logs
-- cleaning temporary directories
-
 LETS RENAME ALL YOUR IMAGE FILES WAHOOOOOOO!
 """
 
  
 import os
 # define the directory that contains the files for renaming
-directory = r"C:\Users\Haaris\Pictures\agetest"
+directory = r"C:\Users\Haaris\Pictures"
 
 # loop over files in the directory, rename them and handle errors if they occur 
 def rename_files(directory):
     # get a list of files in the directory
     files = os.listdir(directory)
-    # filter out files which are not images
+    # filter out files which are not images of the following file types
     image_files = [f for f in files if f.lower().endswith((".jpg", ".jpeg", ".png"))]
 
     # rename each file with a new name format 
     for idx, filename in enumerate(sorted(image_files), start=1):
-        # construct the new file name using zero padding for consistency {idx:03d} ensures that numbers are padded with zeros (e.g., 001, 002).
+        # construct the new file name using zero padding for consistency {idx:03d} ensures that numbers are padded with zeros e.x 001, 002.
         new_name = f"image_{idx:03d}.jpg"
         old_path = os.path.join(directory, filename)
         new_path = os.path.join(directory, new_name)

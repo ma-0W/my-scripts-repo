@@ -1,7 +1,6 @@
 """ 
-Create a Script that Deletes Files Older than 30 Days
-Write a Python script that scans a directory,
-checks each file's modification time, and deletes any files older than 30 days.
+scans a directory, checks each file's modification time, 
+and deletes any files older than X days.
 """
 import os
 import datetime
@@ -47,7 +46,7 @@ def find_old_files(src_dir, days_threshold=30):
            
             # when you subtract one datetime from another, python returns a timedelta object.
             # the object represents the amount of time between the two dates.
-            # so, THIS IS NOT A SIMPLE SUBTRACTION
+            # so, THIS IS NOT A NORMAL SUBTRACTION
             time_delta = today - timeobj
 
             # log the age of the file
@@ -70,5 +69,5 @@ def find_old_files(src_dir, days_threshold=30):
 
 
 source_directory = r"C:\Users\Haaris\Pictures\agetest" 
-
+# Provide source directory and days threshold to the funciton
 find_old_files(source_directory, 5)
